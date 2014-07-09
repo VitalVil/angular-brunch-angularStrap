@@ -3,8 +3,8 @@ var path = require('path');
 exports.config = {
 	// See docs at https://github.com/brunch/brunch/blob/master/docs/config.md
 	modules: {
-		definition: false,
-		wrapper: false
+		definition: 'commonjs',
+		wrapper: 'commonjs'
 	},
 	paths: {
 		"public": 'public',
@@ -30,7 +30,6 @@ exports.config = {
 						case 'bower_components/angular-resource/angular-resource.js':
 						case 'bower_components/angular-sanitize/angular-sanitize.js':
 						case 'bower_components/angular-ui-router/release/angular-ui-router.js':
-						case 'bower_components/ocModal/ocModal.js':
 
 						// bootstrap
 						case 'bower_components/sass-boostrap3/dist/js/bootstrap.js':
