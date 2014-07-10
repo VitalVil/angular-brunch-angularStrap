@@ -31,8 +31,8 @@ exports.config = {
 						case 'bower_components/angular-sanitize/angular-sanitize.js':
 						case 'bower_components/angular-ui-router/release/angular-ui-router.js':
 
-						// bootstrap
-						case 'bower_components/sass-boostrap3/dist/js/bootstrap.js':
+						case 'bower_components/angular-strap/dist/angular-strap.js':
+						case 'bower_components/angular-strap/dist/angular-strap.tpl.js':
 							return true;
 						default:
 							return false;
@@ -52,7 +52,8 @@ exports.config = {
 					'bower_components/angular/angular.js',
 
 					// bootstrap
-					'bower_components/bootstrap/dist/js/bootstrap.js'
+					'bower_components/angular-strap/dist/angular-strap.js',
+					'bower_components/angular-strap/dist/angular-strap.tpl.js'
 				]
 			}
 		},

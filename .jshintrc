@@ -1,0 +1,10 @@
+{
+  "browser": true,
+  "esnext": true,
+  "globals": ["angular", "require", "module", "console"],
+  "globalstrict": true,
+  "quotmark": true,
+  "smarttabs": true,
+  "undef": true,
+  "unused": true
+}
