@@ -1,3 +1,5 @@
-App.controller('ModalCtrl', ['$scope', function($scope) {
+'use strict';
+
+module.exports =  ['$scope', function () {
 	console.log('modal ctrl');
-}]);
+}];
