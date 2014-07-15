@@ -10,7 +10,8 @@
     "angular-ui-router": "0.2.10",
     "jquery": "~2.1.1-rc2",
     "lodash": "~2.4.1",
-    "angular-strap": "~2.0.0"
+    "angular-strap": "~2.0.0",
+    "bootstrap-sass-official": "~3.2.0"
   },
   "overrides": {
     "modernizr": {
@@ -19,5 +20,8 @@
     "es5-shim": {
       "main": "es5-shim.js"
     }
+  },
+  "resolutions": {
+    "angular": "~1.2.0"
   }
 }

@@ -2,4 +2,4 @@
 
 module.exports = angular.module('app.directives', [])
 
-.directive('appVersion', require('./AppVersion'));
+.directive('appVersion', require('./appVersion'));
