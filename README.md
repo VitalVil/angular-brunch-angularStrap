@@ -23,7 +23,7 @@ Features:
 
 or if you have **Brunch** installed run:
 
-`brunch new myapp --skeleton https://github.com/ocombe/angular-brunch-angularStrap`
+`brunch new myapp --skeleton https://github.com/VitalVil/angular-brunch-angularStrap`
 
 ### Running the app during development
 
